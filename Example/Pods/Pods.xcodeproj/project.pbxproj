@@ -1,0 +1,1061 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01305903A810DBA35F6E0CCD1E572141 /* ContentTypeGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EC2F842C82CF3068435215C3F566E8 /* ContentTypeGroup.swift */; };
+		0A38AE0C4A5995B31DA13225621E24A2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACE3E476D6FE48EB8F40705DCD7F0194 /* Foundation.framework */; };
+		292FDEB77A587F98B3A8C8619CAE8BCA /* UIViewFillExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D8DA4619FFDEB8D05423C8C709F3D81 /* UIViewFillExtension.swift */; };
+		316C8E60E6C6B69F9E14FB88E7EC6209 /* Pods-JVConstraintEdges_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C48A86772D9361C464D29E250541CA2 /* Pods-JVConstraintEdges_Tests-dummy.m */; };
+		3B6BAF8DEA1F6E4247B9D1FFA9DFEDF1 /* ConstraintEdgesSafeAreaChoiceSide.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF221E254163FE0FDE68BFB5E672B486 /* ConstraintEdgesSafeAreaChoiceSide.swift */; };
+		508ED68333D3E3298D68E021FE6861A4 /* JVContentType.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21D5D609A96E68EDEC02158E8CB764F2 /* JVContentType.framework */; };
+		5607ADCB5F7498F7FCECC9A9778EEF9E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACE3E476D6FE48EB8F40705DCD7F0194 /* Foundation.framework */; };
+		5C9821E0295D1D760867C566EF2B7EEF /* Pods-JVConstraintEdges_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 026FADE290B1F53F5135F498E7DC3426 /* Pods-JVConstraintEdges_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		72CB24DBE10EBF4D0B23B056FA4652C1 /* ContentTypeGroupInitializable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E34E1DD868330CC37196DA4AE209051 /* ContentTypeGroupInitializable.swift */; };
+		76D54ED4D47A6731DA4722F341A0CC62 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACE3E476D6FE48EB8F40705DCD7F0194 /* Foundation.framework */; };
+		8E08D9199BFE14E0190B0BD016D7F9D0 /* Sizeable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2637A69C33DCFF8FACE3BDF571C94C2D /* Sizeable.swift */; };
+		8F8E057AE1C8B3910508E90AA6460B9C /* JVConstraintEdges-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C67E0AAE194A062DC032D62B27236088 /* JVConstraintEdges-dummy.m */; };
+		8F99C36BB47CCC78172E9B1C7DA4E657 /* JVConstraintEdges-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FA562AB7BD2EF94A9DEAD99CBC2C771E /* JVConstraintEdges-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		971DBB39FF7042851D433FEAB69C5527 /* ContentTypeInitializable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B19F6035169D93B895125EBE362476B /* ContentTypeInitializable.swift */; };
+		98BB215235A14BFFCD514FD9CD0BECBC /* JVSizeable.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B59E28F6EC52AE8D5665EC9444A7D2DF /* JVSizeable.framework */; };
+		9934FF7C166FA4BC3FD1048BEBCC47F8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACE3E476D6FE48EB8F40705DCD7F0194 /* Foundation.framework */; };
+		A08019B797E86147B150A57AE2B5A80D /* ConstraintEdges.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7362AFF9C94223829C7889B7859E840 /* ConstraintEdges.swift */; };
+		AB4811FBAC0A06ACDE74080B6DE3968A /* JVSizeable-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5AABE83EF5433146DC2D2EF5D2773074 /* JVSizeable-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D3ABB389467CF4E3D3CFE26EEA59CE12 /* ArrayExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE56AEBC42F32ABA0C1F499CB71D539 /* ArrayExtensions.swift */; };
+		E0BA3D16A6B65DF5DCFBB292F999C962 /* Copyable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0817915455C160535B29CC1FF05F9D73 /* Copyable.swift */; };
+		E16C5572F2EA8AFEAF32DDBBD829ED89 /* JVSizeable-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E0C3F2D9CE74EAAFBD3B3C8BB4EF3241 /* JVSizeable-dummy.m */; };
+		E367145EA1814F3736388DBCDD743727 /* ContentType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A3CB173FFAAC0737F27A2B8BC79EAB /* ContentType.swift */; };
+		E74D9A7FF61D6D44E329B7CD7ECD4F62 /* ContentTypeConstraintEdges.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9A7512AF6E448E453789268D014B93 /* ContentTypeConstraintEdges.swift */; };
+		ED0D35204E240A060FC09366A2E650C2 /* ConstraintEdgesSafeAreaChoice.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA63A596D48AD16DC82575788C19728F /* ConstraintEdgesSafeAreaChoice.swift */; };
+		F12153EFF0DC61D2B7C86EFF6692947F /* JVContentType-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FA3FB9D0D3A1A3357FB37E1A9B49F16 /* JVContentType-dummy.m */; };
+		FC150DA78F4224FF04035A737AD428C2 /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CD6091BF487CD91AA9C20549BF4C240 /* StringExtensions.swift */; };
+		FFCB3C7AE968FF2A9E99AA0B8D7B5A2C /* JVContentType-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C8762B0489EA40B69D2404D351AEF1B1 /* JVContentType-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		138C14A8CB7100A2A354AFA86224D2B9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 519BDE3F69A25A27F2BF5FD66AC7560F;
+			remoteInfo = JVContentType;
+		};
+		1EFBF872EB107E0F84620C725AF6B9A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 519BDE3F69A25A27F2BF5FD66AC7560F;
+			remoteInfo = JVContentType;
+		};
+		4A9DF306EE0029D0A1156F621B58A4D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 218EBD2F6738DB57951178484E7B7D2E;
+			remoteInfo = JVConstraintEdges;
+		};
+		4AA67CCEC53E46BCD9CC3D48817E6F4C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB32AC3E11B4E953F0A87FC01C240D47;
+			remoteInfo = JVSizeable;
+		};
+		990DC85E5F49EF333E2A409E5B21046B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB32AC3E11B4E953F0A87FC01C240D47;
+			remoteInfo = JVSizeable;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01261E6C8C406959096D3EE264A4054A /* JVContentType.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JVContentType.framework; path = JVContentType.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		026FADE290B1F53F5135F498E7DC3426 /* Pods-JVConstraintEdges_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JVConstraintEdges_Tests-umbrella.h"; sourceTree = "<group>"; };
+		04727C3B0E78182712B82062AC5659AA /* JVContentType-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JVContentType-Info.plist"; sourceTree = "<group>"; };
+		0817915455C160535B29CC1FF05F9D73 /* Copyable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Copyable.swift; path = JVContentType/Classes/Copyable.swift; sourceTree = "<group>"; };
+		0D8DA4619FFDEB8D05423C8C709F3D81 /* UIViewFillExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIViewFillExtension.swift; path = JVConstraintEdges/Classes/UIViewFillExtension.swift; sourceTree = "<group>"; };
+		116CAE2D6BBBCB4A4F852221DA35E7D6 /* Pods-JVConstraintEdges_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JVConstraintEdges_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1390FB8E43770AB82C7D064F6756AD07 /* Pods-JVConstraintEdges_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JVConstraintEdges_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		147DD20ADD571DB62B601BCB6EA96357 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		14BF24E1AD36920522F87B1DF73AADC0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		153E703BB2683FEF5F89BE6D7B15539B /* Pods-JVConstraintEdges_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JVConstraintEdges_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		18A3CB173FFAAC0737F27A2B8BC79EAB /* ContentType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ContentType.swift; path = JVContentType/Classes/ContentType.swift; sourceTree = "<group>"; };
+		1FA3FB9D0D3A1A3357FB37E1A9B49F16 /* JVContentType-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JVContentType-dummy.m"; sourceTree = "<group>"; };
+		21D5D609A96E68EDEC02158E8CB764F2 /* JVContentType.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JVContentType.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2637A69C33DCFF8FACE3BDF571C94C2D /* Sizeable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Sizeable.swift; path = JVSizeable/Classes/Sizeable.swift; sourceTree = "<group>"; };
+		2C48A86772D9361C464D29E250541CA2 /* Pods-JVConstraintEdges_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JVConstraintEdges_Tests-dummy.m"; sourceTree = "<group>"; };
+		317E375DBC33CFF540446F6C8A7149DD /* JVConstraintEdges.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JVConstraintEdges.modulemap; sourceTree = "<group>"; };
+		3A35F9AFBD6AB47FFCFDBAC19EFE946D /* JVContentType.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JVContentType.xcconfig; sourceTree = "<group>"; };
+		3CD6091BF487CD91AA9C20549BF4C240 /* StringExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StringExtensions.swift; path = JVConstraintEdges/Classes/StringExtensions.swift; sourceTree = "<group>"; };
+		43DDB4519DC5B34C6CE6121FC144CF5E /* Pods-JVConstraintEdges_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JVConstraintEdges_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		46EC2F842C82CF3068435215C3F566E8 /* ContentTypeGroup.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ContentTypeGroup.swift; path = JVContentType/Classes/ContentTypeGroup.swift; sourceTree = "<group>"; };
+		5935E08F1D90D700BAA28B1308C47631 /* JVSizeable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JVSizeable.framework; path = JVSizeable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AABE83EF5433146DC2D2EF5D2773074 /* JVSizeable-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JVSizeable-umbrella.h"; sourceTree = "<group>"; };
+		5B19F6035169D93B895125EBE362476B /* ContentTypeInitializable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ContentTypeInitializable.swift; path = JVContentType/Classes/ContentTypeInitializable.swift; sourceTree = "<group>"; };
+		5B2D5F0679A355A794C9C6F68D7FFE0A /* Pods-JVConstraintEdges_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JVConstraintEdges_Tests.modulemap"; sourceTree = "<group>"; };
+		5B49ADE70B22DEBD06BAC14B174BEBE8 /* Pods-JVConstraintEdges_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JVConstraintEdges_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		62EDAB55164003AB75F62910AA318989 /* JVConstraintEdges-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JVConstraintEdges-Info.plist"; sourceTree = "<group>"; };
+		6908D52E3084DD45EC0DEC1EC611C189 /* JVSizeable-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JVSizeable-prefix.pch"; sourceTree = "<group>"; };
+		6A62FC6A69FFD4083BACCADAD9019521 /* JVConstraintEdges-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JVConstraintEdges-prefix.pch"; sourceTree = "<group>"; };
+		6A6BC6B38C94AFC33F3BFA5F0FBB707D /* JVSizeable.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JVSizeable.xcconfig; sourceTree = "<group>"; };
+		6CB8D766109E88A1CC79F1AEEEE0F1F2 /* JVConstraintEdges.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = JVConstraintEdges.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		82269D4C8D8C7AA70F225F5F4FE9757E /* JVContentType.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JVContentType.modulemap; sourceTree = "<group>"; };
+		8BC3FFD70F1111A15924FA4BDD3941C5 /* Pods-JVConstraintEdges_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JVConstraintEdges_Tests-Info.plist"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E34E1DD868330CC37196DA4AE209051 /* ContentTypeGroupInitializable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ContentTypeGroupInitializable.swift; path = JVContentType/Classes/ContentTypeGroupInitializable.swift; sourceTree = "<group>"; };
+		9EE56AEBC42F32ABA0C1F499CB71D539 /* ArrayExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ArrayExtensions.swift; path = JVContentType/Classes/ArrayExtensions.swift; sourceTree = "<group>"; };
+		A9666F32A2A6B1DF9C1B7954403554D1 /* JVSizeable-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JVSizeable-Info.plist"; sourceTree = "<group>"; };
+		AA63A596D48AD16DC82575788C19728F /* ConstraintEdgesSafeAreaChoice.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintEdgesSafeAreaChoice.swift; path = JVConstraintEdges/Classes/ConstraintEdgesSafeAreaChoice.swift; sourceTree = "<group>"; };
+		ACE3E476D6FE48EB8F40705DCD7F0194 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		B59E28F6EC52AE8D5665EC9444A7D2DF /* JVSizeable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JVSizeable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B66FA221C34B0DE7A4E46CD2B951E5F2 /* JVContentType-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JVContentType-prefix.pch"; sourceTree = "<group>"; };
+		BCEB3D483C0F0150E961A3F4D3B4C5B0 /* JVSizeable.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JVSizeable.modulemap; sourceTree = "<group>"; };
+		BD9A7512AF6E448E453789268D014B93 /* ContentTypeConstraintEdges.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ContentTypeConstraintEdges.swift; path = JVConstraintEdges/Classes/ContentTypeConstraintEdges.swift; sourceTree = "<group>"; };
+		BF221E254163FE0FDE68BFB5E672B486 /* ConstraintEdgesSafeAreaChoiceSide.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintEdgesSafeAreaChoiceSide.swift; path = JVConstraintEdges/Classes/ConstraintEdgesSafeAreaChoiceSide.swift; sourceTree = "<group>"; };
+		C67E0AAE194A062DC032D62B27236088 /* JVConstraintEdges-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JVConstraintEdges-dummy.m"; sourceTree = "<group>"; };
+		C8762B0489EA40B69D2404D351AEF1B1 /* JVContentType-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JVContentType-umbrella.h"; sourceTree = "<group>"; };
+		D043FD207AF91A61355C701452437B8C /* JVConstraintEdges.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JVConstraintEdges.xcconfig; sourceTree = "<group>"; };
+		D4D88D5042AC819D613057D20AF38F7D /* Pods_JVConstraintEdges_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JVConstraintEdges_Tests.framework; path = "Pods-JVConstraintEdges_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7362AFF9C94223829C7889B7859E840 /* ConstraintEdges.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintEdges.swift; path = JVConstraintEdges/Classes/ConstraintEdges.swift; sourceTree = "<group>"; };
+		E0C3F2D9CE74EAAFBD3B3C8BB4EF3241 /* JVSizeable-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JVSizeable-dummy.m"; sourceTree = "<group>"; };
+		EC9ABDC30AE7D9555A514CB5CB9BC8D7 /* JVConstraintEdges.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JVConstraintEdges.framework; path = JVConstraintEdges.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA562AB7BD2EF94A9DEAD99CBC2C771E /* JVConstraintEdges-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JVConstraintEdges-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1F825CBB0CF8363ECF835A1654B78D6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A38AE0C4A5995B31DA13225621E24A2 /* Foundation.framework in Frameworks */,
+				508ED68333D3E3298D68E021FE6861A4 /* JVContentType.framework in Frameworks */,
+				98BB215235A14BFFCD514FD9CD0BECBC /* JVSizeable.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		373ACDE879CCEB0153718CED52D597DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9934FF7C166FA4BC3FD1048BEBCC47F8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F165203C12BCF15F2B0287CAEE32E6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5607ADCB5F7498F7FCECC9A9778EEF9E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44C9445A16765DE17AF230B3CCAD5899 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76D54ED4D47A6731DA4722F341A0CC62 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0AE130F943B28B073ABB1D4B40F9C794 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				6CB8D766109E88A1CC79F1AEEEE0F1F2 /* JVConstraintEdges.podspec */,
+				14BF24E1AD36920522F87B1DF73AADC0 /* LICENSE */,
+				147DD20ADD571DB62B601BCB6EA96357 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		1D175075080C62F32D693DE374C25F8D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C26E97DA00078F1AEFEED231C8EE875E /* JVContentType */,
+				82058D381EA374C9A039DAA2A74762B4 /* JVSizeable */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3B41A2D54C594244307BDFCC9A616E66 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C4DC1A2878EF8E98B74CF2DC2D0DFFA0 /* Pods-JVConstraintEdges_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		4F159F5360FEF23B15C5DAC3F28DF965 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BCEB3D483C0F0150E961A3F4D3B4C5B0 /* JVSizeable.modulemap */,
+				6A6BC6B38C94AFC33F3BFA5F0FBB707D /* JVSizeable.xcconfig */,
+				E0C3F2D9CE74EAAFBD3B3C8BB4EF3241 /* JVSizeable-dummy.m */,
+				A9666F32A2A6B1DF9C1B7954403554D1 /* JVSizeable-Info.plist */,
+				6908D52E3084DD45EC0DEC1EC611C189 /* JVSizeable-prefix.pch */,
+				5AABE83EF5433146DC2D2EF5D2773074 /* JVSizeable-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/JVSizeable";
+			sourceTree = "<group>";
+		};
+		566AB36A83450347BA13BC5265A9010F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				317E375DBC33CFF540446F6C8A7149DD /* JVConstraintEdges.modulemap */,
+				D043FD207AF91A61355C701452437B8C /* JVConstraintEdges.xcconfig */,
+				C67E0AAE194A062DC032D62B27236088 /* JVConstraintEdges-dummy.m */,
+				62EDAB55164003AB75F62910AA318989 /* JVConstraintEdges-Info.plist */,
+				6A62FC6A69FFD4083BACCADAD9019521 /* JVConstraintEdges-prefix.pch */,
+				FA562AB7BD2EF94A9DEAD99CBC2C771E /* JVConstraintEdges-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/JVConstraintEdges";
+			sourceTree = "<group>";
+		};
+		5FB42640EF0491E45CDF62EF3130FBAC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC9ABDC30AE7D9555A514CB5CB9BC8D7 /* JVConstraintEdges.framework */,
+				01261E6C8C406959096D3EE264A4054A /* JVContentType.framework */,
+				5935E08F1D90D700BAA28B1308C47631 /* JVSizeable.framework */,
+				D4D88D5042AC819D613057D20AF38F7D /* Pods_JVConstraintEdges_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		623E9563B047003BCE3F0747800B6A98 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CBA29B6B79F21A5693786AF8BBFFC1FF /* JVConstraintEdges */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		6D6348398658FB2BC982A77D099D4079 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				21D5D609A96E68EDEC02158E8CB764F2 /* JVContentType.framework */,
+				B59E28F6EC52AE8D5665EC9444A7D2DF /* JVSizeable.framework */,
+				8EE291E3614AB0DB1C9ED8EA9210A201 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				623E9563B047003BCE3F0747800B6A98 /* Development Pods */,
+				6D6348398658FB2BC982A77D099D4079 /* Frameworks */,
+				1D175075080C62F32D693DE374C25F8D /* Pods */,
+				5FB42640EF0491E45CDF62EF3130FBAC /* Products */,
+				3B41A2D54C594244307BDFCC9A616E66 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		82058D381EA374C9A039DAA2A74762B4 /* JVSizeable */ = {
+			isa = PBXGroup;
+			children = (
+				2637A69C33DCFF8FACE3BDF571C94C2D /* Sizeable.swift */,
+				4F159F5360FEF23B15C5DAC3F28DF965 /* Support Files */,
+			);
+			name = JVSizeable;
+			path = JVSizeable;
+			sourceTree = "<group>";
+		};
+		8EE291E3614AB0DB1C9ED8EA9210A201 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				ACE3E476D6FE48EB8F40705DCD7F0194 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		BB858CBD2CBAA986B34295B10B3CCE68 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				82269D4C8D8C7AA70F225F5F4FE9757E /* JVContentType.modulemap */,
+				3A35F9AFBD6AB47FFCFDBAC19EFE946D /* JVContentType.xcconfig */,
+				1FA3FB9D0D3A1A3357FB37E1A9B49F16 /* JVContentType-dummy.m */,
+				04727C3B0E78182712B82062AC5659AA /* JVContentType-Info.plist */,
+				B66FA221C34B0DE7A4E46CD2B951E5F2 /* JVContentType-prefix.pch */,
+				C8762B0489EA40B69D2404D351AEF1B1 /* JVContentType-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/JVContentType";
+			sourceTree = "<group>";
+		};
+		C26E97DA00078F1AEFEED231C8EE875E /* JVContentType */ = {
+			isa = PBXGroup;
+			children = (
+				9EE56AEBC42F32ABA0C1F499CB71D539 /* ArrayExtensions.swift */,
+				18A3CB173FFAAC0737F27A2B8BC79EAB /* ContentType.swift */,
+				46EC2F842C82CF3068435215C3F566E8 /* ContentTypeGroup.swift */,
+				9E34E1DD868330CC37196DA4AE209051 /* ContentTypeGroupInitializable.swift */,
+				5B19F6035169D93B895125EBE362476B /* ContentTypeInitializable.swift */,
+				0817915455C160535B29CC1FF05F9D73 /* Copyable.swift */,
+				BB858CBD2CBAA986B34295B10B3CCE68 /* Support Files */,
+			);
+			name = JVContentType;
+			path = JVContentType;
+			sourceTree = "<group>";
+		};
+		C4DC1A2878EF8E98B74CF2DC2D0DFFA0 /* Pods-JVConstraintEdges_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				5B2D5F0679A355A794C9C6F68D7FFE0A /* Pods-JVConstraintEdges_Tests.modulemap */,
+				116CAE2D6BBBCB4A4F852221DA35E7D6 /* Pods-JVConstraintEdges_Tests-acknowledgements.markdown */,
+				43DDB4519DC5B34C6CE6121FC144CF5E /* Pods-JVConstraintEdges_Tests-acknowledgements.plist */,
+				2C48A86772D9361C464D29E250541CA2 /* Pods-JVConstraintEdges_Tests-dummy.m */,
+				5B49ADE70B22DEBD06BAC14B174BEBE8 /* Pods-JVConstraintEdges_Tests-frameworks.sh */,
+				8BC3FFD70F1111A15924FA4BDD3941C5 /* Pods-JVConstraintEdges_Tests-Info.plist */,
+				026FADE290B1F53F5135F498E7DC3426 /* Pods-JVConstraintEdges_Tests-umbrella.h */,
+				1390FB8E43770AB82C7D064F6756AD07 /* Pods-JVConstraintEdges_Tests.debug.xcconfig */,
+				153E703BB2683FEF5F89BE6D7B15539B /* Pods-JVConstraintEdges_Tests.release.xcconfig */,
+			);
+			name = "Pods-JVConstraintEdges_Tests";
+			path = "Target Support Files/Pods-JVConstraintEdges_Tests";
+			sourceTree = "<group>";
+		};
+		CBA29B6B79F21A5693786AF8BBFFC1FF /* JVConstraintEdges */ = {
+			isa = PBXGroup;
+			children = (
+				D7362AFF9C94223829C7889B7859E840 /* ConstraintEdges.swift */,
+				AA63A596D48AD16DC82575788C19728F /* ConstraintEdgesSafeAreaChoice.swift */,
+				BF221E254163FE0FDE68BFB5E672B486 /* ConstraintEdgesSafeAreaChoiceSide.swift */,
+				BD9A7512AF6E448E453789268D014B93 /* ContentTypeConstraintEdges.swift */,
+				3CD6091BF487CD91AA9C20549BF4C240 /* StringExtensions.swift */,
+				0D8DA4619FFDEB8D05423C8C709F3D81 /* UIViewFillExtension.swift */,
+				0AE130F943B28B073ABB1D4B40F9C794 /* Pod */,
+				566AB36A83450347BA13BC5265A9010F /* Support Files */,
+			);
+			name = JVConstraintEdges;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0C902FBDCD062E2DFCAFF38557A6E9B9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB4811FBAC0A06ACDE74080B6DE3968A /* JVSizeable-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C7860F0CD72D66C56524B6FF33B9633 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F99C36BB47CCC78172E9B1C7DA4E657 /* JVConstraintEdges-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D18252719BC81681029449C02F3A82F3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFCB3C7AE968FF2A9E99AA0B8D7B5A2C /* JVContentType-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E75614892844611F5EA2E6DA97BC49B0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C9821E0295D1D760867C566EF2B7EEF /* Pods-JVConstraintEdges_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		218EBD2F6738DB57951178484E7B7D2E /* JVConstraintEdges */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1679FA3CA3DBF0F993505647905490BC /* Build configuration list for PBXNativeTarget "JVConstraintEdges" */;
+			buildPhases = (
+				8C7860F0CD72D66C56524B6FF33B9633 /* Headers */,
+				E44742633289CA048316DF31876F0D6B /* Sources */,
+				1F825CBB0CF8363ECF835A1654B78D6A /* Frameworks */,
+				FB28F63140C9BE1F49D17A96F049E8D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B4D21D0873AA5DB3168952134FBFFBA7 /* PBXTargetDependency */,
+				C16095AA29C184DBF88194301337D7BC /* PBXTargetDependency */,
+			);
+			name = JVConstraintEdges;
+			productName = JVConstraintEdges;
+			productReference = EC9ABDC30AE7D9555A514CB5CB9BC8D7 /* JVConstraintEdges.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		519BDE3F69A25A27F2BF5FD66AC7560F /* JVContentType */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11B5B30EBDB023A63302BB36084679CC /* Build configuration list for PBXNativeTarget "JVContentType" */;
+			buildPhases = (
+				D18252719BC81681029449C02F3A82F3 /* Headers */,
+				F2A0301EEA4B394784BA9462DD0C48DD /* Sources */,
+				373ACDE879CCEB0153718CED52D597DB /* Frameworks */,
+				AC39600B5AE4B4192D8A6A4864D9E75B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JVContentType;
+			productName = JVContentType;
+			productReference = 01261E6C8C406959096D3EE264A4054A /* JVContentType.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9E153F5D4B74C11065E155C35940E6ED /* Pods-JVConstraintEdges_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80492CB5F27936BF08EF37AFE0E3322E /* Build configuration list for PBXNativeTarget "Pods-JVConstraintEdges_Tests" */;
+			buildPhases = (
+				E75614892844611F5EA2E6DA97BC49B0 /* Headers */,
+				CE511C042BD40C548A39681FD36218A6 /* Sources */,
+				44C9445A16765DE17AF230B3CCAD5899 /* Frameworks */,
+				55880DD6F9CA9B15BAD23821FE1BC705 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4E9D65A0C4162D051BD46DE2657869AE /* PBXTargetDependency */,
+				2D542A5CDD1365FB2FCDE45F6A9D628D /* PBXTargetDependency */,
+				CD6220D8D4429C3DBDF5BDE833ACEBA7 /* PBXTargetDependency */,
+			);
+			name = "Pods-JVConstraintEdges_Tests";
+			productName = "Pods-JVConstraintEdges_Tests";
+			productReference = D4D88D5042AC819D613057D20AF38F7D /* Pods_JVConstraintEdges_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EB32AC3E11B4E953F0A87FC01C240D47 /* JVSizeable */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2AFC09F7786976A1036E05928F1A529C /* Build configuration list for PBXNativeTarget "JVSizeable" */;
+			buildPhases = (
+				0C902FBDCD062E2DFCAFF38557A6E9B9 /* Headers */,
+				7F86AEFCBB5F40F53887CAE0571E9E58 /* Sources */,
+				3F165203C12BCF15F2B0287CAEE32E6B /* Frameworks */,
+				71F41B5DF6EA1B1F0885B1DDA96D3E07 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JVSizeable;
+			productName = JVSizeable;
+			productReference = 5935E08F1D90D700BAA28B1308C47631 /* JVSizeable.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 5FB42640EF0491E45CDF62EF3130FBAC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				218EBD2F6738DB57951178484E7B7D2E /* JVConstraintEdges */,
+				519BDE3F69A25A27F2BF5FD66AC7560F /* JVContentType */,
+				EB32AC3E11B4E953F0A87FC01C240D47 /* JVSizeable */,
+				9E153F5D4B74C11065E155C35940E6ED /* Pods-JVConstraintEdges_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		55880DD6F9CA9B15BAD23821FE1BC705 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71F41B5DF6EA1B1F0885B1DDA96D3E07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC39600B5AE4B4192D8A6A4864D9E75B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB28F63140C9BE1F49D17A96F049E8D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7F86AEFCBB5F40F53887CAE0571E9E58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E16C5572F2EA8AFEAF32DDBBD829ED89 /* JVSizeable-dummy.m in Sources */,
+				8E08D9199BFE14E0190B0BD016D7F9D0 /* Sizeable.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE511C042BD40C548A39681FD36218A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				316C8E60E6C6B69F9E14FB88E7EC6209 /* Pods-JVConstraintEdges_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E44742633289CA048316DF31876F0D6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A08019B797E86147B150A57AE2B5A80D /* ConstraintEdges.swift in Sources */,
+				ED0D35204E240A060FC09366A2E650C2 /* ConstraintEdgesSafeAreaChoice.swift in Sources */,
+				3B6BAF8DEA1F6E4247B9D1FFA9DFEDF1 /* ConstraintEdgesSafeAreaChoiceSide.swift in Sources */,
+				E74D9A7FF61D6D44E329B7CD7ECD4F62 /* ContentTypeConstraintEdges.swift in Sources */,
+				8F8E057AE1C8B3910508E90AA6460B9C /* JVConstraintEdges-dummy.m in Sources */,
+				FC150DA78F4224FF04035A737AD428C2 /* StringExtensions.swift in Sources */,
+				292FDEB77A587F98B3A8C8619CAE8BCA /* UIViewFillExtension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2A0301EEA4B394784BA9462DD0C48DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3ABB389467CF4E3D3CFE26EEA59CE12 /* ArrayExtensions.swift in Sources */,
+				E367145EA1814F3736388DBCDD743727 /* ContentType.swift in Sources */,
+				01305903A810DBA35F6E0CCD1E572141 /* ContentTypeGroup.swift in Sources */,
+				72CB24DBE10EBF4D0B23B056FA4652C1 /* ContentTypeGroupInitializable.swift in Sources */,
+				971DBB39FF7042851D433FEAB69C5527 /* ContentTypeInitializable.swift in Sources */,
+				E0BA3D16A6B65DF5DCFBB292F999C962 /* Copyable.swift in Sources */,
+				F12153EFF0DC61D2B7C86EFF6692947F /* JVContentType-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2D542A5CDD1365FB2FCDE45F6A9D628D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JVContentType;
+			target = 519BDE3F69A25A27F2BF5FD66AC7560F /* JVContentType */;
+			targetProxy = 1EFBF872EB107E0F84620C725AF6B9A0 /* PBXContainerItemProxy */;
+		};
+		4E9D65A0C4162D051BD46DE2657869AE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JVConstraintEdges;
+			target = 218EBD2F6738DB57951178484E7B7D2E /* JVConstraintEdges */;
+			targetProxy = 4A9DF306EE0029D0A1156F621B58A4D3 /* PBXContainerItemProxy */;
+		};
+		B4D21D0873AA5DB3168952134FBFFBA7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JVContentType;
+			target = 519BDE3F69A25A27F2BF5FD66AC7560F /* JVContentType */;
+			targetProxy = 138C14A8CB7100A2A354AFA86224D2B9 /* PBXContainerItemProxy */;
+		};
+		C16095AA29C184DBF88194301337D7BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JVSizeable;
+			target = EB32AC3E11B4E953F0A87FC01C240D47 /* JVSizeable */;
+			targetProxy = 990DC85E5F49EF333E2A409E5B21046B /* PBXContainerItemProxy */;
+		};
+		CD6220D8D4429C3DBDF5BDE833ACEBA7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JVSizeable;
+			target = EB32AC3E11B4E953F0A87FC01C240D47 /* JVSizeable */;
+			targetProxy = 4AA67CCEC53E46BCD9CC3D48817E6F4C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		103B87544B9FBA15B62005879A6BA4CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A35F9AFBD6AB47FFCFDBAC19EFE946D /* JVContentType.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JVContentType/JVContentType-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JVContentType/JVContentType-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JVContentType/JVContentType.modulemap";
+				PRODUCT_MODULE_NAME = JVContentType;
+				PRODUCT_NAME = JVContentType;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		569F9792E7B1F907EDB5FDC710754DB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D043FD207AF91A61355C701452437B8C /* JVConstraintEdges.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JVConstraintEdges/JVConstraintEdges-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JVConstraintEdges/JVConstraintEdges-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JVConstraintEdges/JVConstraintEdges.modulemap";
+				PRODUCT_MODULE_NAME = JVConstraintEdges;
+				PRODUCT_NAME = JVConstraintEdges;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5FA68BE41850B950FC6D90963B4F7CAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A6BC6B38C94AFC33F3BFA5F0FBB707D /* JVSizeable.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JVSizeable/JVSizeable-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JVSizeable/JVSizeable-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JVSizeable/JVSizeable.modulemap";
+				PRODUCT_MODULE_NAME = JVSizeable;
+				PRODUCT_NAME = JVSizeable;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6AE65599C0FC6E48CFEECF507FAE24C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1390FB8E43770AB82C7D064F6756AD07 /* Pods-JVConstraintEdges_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JVConstraintEdges_Tests/Pods-JVConstraintEdges_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JVConstraintEdges_Tests/Pods-JVConstraintEdges_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7146278B89FD398E2E039EBCD6068F59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 153E703BB2683FEF5F89BE6D7B15539B /* Pods-JVConstraintEdges_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JVConstraintEdges_Tests/Pods-JVConstraintEdges_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JVConstraintEdges_Tests/Pods-JVConstraintEdges_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8C3D32AC054F4DBEE82EB2FD6A303D73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9EDEDA0C3C9CDD03475343B95CA16089 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A6BC6B38C94AFC33F3BFA5F0FBB707D /* JVSizeable.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JVSizeable/JVSizeable-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JVSizeable/JVSizeable-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JVSizeable/JVSizeable.modulemap";
+				PRODUCT_MODULE_NAME = JVSizeable;
+				PRODUCT_NAME = JVSizeable;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AC0CB559CEC4B795E9CBC5EF87D2E45F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A35F9AFBD6AB47FFCFDBAC19EFE946D /* JVContentType.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JVContentType/JVContentType-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JVContentType/JVContentType-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JVContentType/JVContentType.modulemap";
+				PRODUCT_MODULE_NAME = JVContentType;
+				PRODUCT_NAME = JVContentType;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B751CA5B597BFC35A6C0287C65F9E2E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		C0627854614E7BD79075569CCF3F154A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D043FD207AF91A61355C701452437B8C /* JVConstraintEdges.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JVConstraintEdges/JVConstraintEdges-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JVConstraintEdges/JVConstraintEdges-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JVConstraintEdges/JVConstraintEdges.modulemap";
+				PRODUCT_MODULE_NAME = JVConstraintEdges;
+				PRODUCT_NAME = JVConstraintEdges;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		11B5B30EBDB023A63302BB36084679CC /* Build configuration list for PBXNativeTarget "JVContentType" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC0CB559CEC4B795E9CBC5EF87D2E45F /* Debug */,
+				103B87544B9FBA15B62005879A6BA4CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1679FA3CA3DBF0F993505647905490BC /* Build configuration list for PBXNativeTarget "JVConstraintEdges" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				569F9792E7B1F907EDB5FDC710754DB8 /* Debug */,
+				C0627854614E7BD79075569CCF3F154A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2AFC09F7786976A1036E05928F1A529C /* Build configuration list for PBXNativeTarget "JVSizeable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FA68BE41850B950FC6D90963B4F7CAF /* Debug */,
+				9EDEDA0C3C9CDD03475343B95CA16089 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C3D32AC054F4DBEE82EB2FD6A303D73 /* Debug */,
+				B751CA5B597BFC35A6C0287C65F9E2E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80492CB5F27936BF08EF37AFE0E3322E /* Build configuration list for PBXNativeTarget "Pods-JVConstraintEdges_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6AE65599C0FC6E48CFEECF507FAE24C9 /* Debug */,
+				7146278B89FD398E2E039EBCD6068F59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

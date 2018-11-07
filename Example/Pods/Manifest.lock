@@ -1,0 +1,27 @@
+PODS:
+  - JVConstraintEdges (0.1.0):
+    - JVContentType
+    - JVSizeable
+  - JVContentType (0.1.0)
+  - JVSizeable (0.1.0)
+
+DEPENDENCIES:
+  - JVConstraintEdges (from `../`)
+
+SPEC REPOS:
+  "https://Jasperav@bitbucket.org/Jasperav/specs.git":
+    - JVContentType
+    - JVSizeable
+
+EXTERNAL SOURCES:
+  JVConstraintEdges:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  JVConstraintEdges: 5b33b72841c63ab3413a740011afef5cc53be031
+  JVContentType: 5cf5622da8f46a89c10b79f98248a5c89c43b4fc
+  JVSizeable: f6092ab50a854dff4356c7d3cd9136ad18eb92d4
+
+PODFILE CHECKSUM: a06e89ef11bc96b48477edc8b56f9e4e49c7f8d4
+
+COCOAPODS: 1.6.0.beta.1

@@ -1,0 +1,30 @@
+{
+  "name": "JVConstraintEdges",
+  "version": "0.1.0",
+  "summary": "JVConstraintEdges.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://google.com",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Jasperav": "Jasperav@hotmail.com"
+  },
+  "source": {
+    "git": "https://Jasperav@bitbucket.org/Jasperav/jvconstraintedges.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "source_files": "JVConstraintEdges/Classes/**/*",
+  "dependencies": {
+    "JVContentType": [
+
+    ],
+    "JVSizeable": [
+
+    ]
+  }
+}

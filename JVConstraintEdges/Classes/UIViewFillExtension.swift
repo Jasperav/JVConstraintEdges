@@ -2,11 +2,11 @@ import UIKit
 
 public extension UIView {
     
-    public func fillToMiddleWithSameHeightAndWidth(toSuperview superview: UIView, toView: UIView, addToSuperView: Bool = true, toSafeMargins: Bool = false) {
+    public func fillToMiddleWithSameHeightAndWidth(toView: UIView, addToSuperView: Bool = true, toSafeMargins: Bool = false) {
         translatesAutoresizingMaskIntoConstraints = false
         
         if addToSuperView{
-            superview.addSubview(self)
+            toView.superview!.addSubview(self)
         }
         
         NSLayoutConstraint.activate([

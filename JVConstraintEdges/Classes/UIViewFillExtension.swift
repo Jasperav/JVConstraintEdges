@@ -2,6 +2,10 @@ import UIKit
 
 public extension UIView {
     
+    public func createTopConstraintToBottom(toBottomOfView: UIView, constant: CGFloat? = nil, multiplier: CGFloat? = nil) {
+        NSLayoutConstraint(item: self, attribute: .top, relatedBy: .equal, toItem: toBottomOfView, attribute: .bottom, multiplier: multiplier ?? 1, constant: constant ?? 0).isActive = true
+    }
+    
     public func fillToMiddleWithSameHeightAndWidth(toView: UIView, addToSuperView: Bool = true, toSafeMargins: Bool = false) {
         translatesAutoresizingMaskIntoConstraints = false
         

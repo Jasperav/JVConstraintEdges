@@ -5,11 +5,11 @@ public protocol Copyable: class {
     /// Make this class func in an inherence tree
     /// When a class implements this method but also implements the content type protocol
     /// the contentTypeId shoud NOT be copied
-    init(old: Self, contentTypeId: String)
+    init(old: Self, contentTypeId: String?)
 }
 
 public extension Copyable {
-    func copy(contentTypeId: String) -> Self {
+    func copy(contentTypeId: String?) -> Self {
         return Self.init(old: self, contentTypeId: contentTypeId)
     }
 }

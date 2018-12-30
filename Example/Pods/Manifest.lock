@@ -1,8 +1,8 @@
 PODS:
-  - JVConstraintEdges (0.1.8):
+  - JVConstraintEdges (0.1.9):
     - JVContentType
     - JVSizeable
-  - JVContentType (0.1.5)
+  - JVContentType (0.1.6)
   - JVSizeable (0.1.0)
 
 DEPENDENCIES:
@@ -18,8 +18,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  JVConstraintEdges: f896b50f5088f2e5b2f4d19277dd4c19d4b3216d
-  JVContentType: e62e3eca7b5d701f344e9a7116fc1ec3213b9d0c
+  JVConstraintEdges: c2db42051f75f23126230e4e83e5361a9dd5e18f
+  JVContentType: 4e3a6dd8a99feaff3032928bc808bd3f835ba247
   JVSizeable: 1252e6b1bed411b3fc34f6119d8eaf6803876cd3
 
 PODFILE CHECKSUM: a06e89ef11bc96b48477edc8b56f9e4e49c7f8d4

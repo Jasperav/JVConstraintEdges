@@ -77,15 +77,15 @@ public struct ConstraintEdges: Sizeable, Decodable {
         return ConstraintEdges(all: isTablet ? tablet * 2 : phone)
     }
     
-    public func toEdgeRectInsets() -> UIEdgeInsets {
+    func toEdgeRectInsets() -> UIEdgeInsets {
         return UIEdgeInsets(top: top ?? 0, left: leading ?? 0, bottom: bottom ?? 0, right: trailing ?? 0)
     }
     
-    mutating public func minus(edge: UIRectEdge) {
+    mutating func minus(edge: UIRectEdge) {
         self = min(edge)
     }
     
-    public func min(_ edge: UIRectEdge) -> ConstraintEdges {
+    func min(_ edge: UIRectEdge) -> ConstraintEdges {
         if edge == .left {
             return ConstraintEdges(leading: nil, trailing: trailing, top: top, bottom: bottom)
         }
@@ -101,19 +101,19 @@ public struct ConstraintEdges: Sizeable, Decodable {
         return ConstraintEdges(leading: leading, trailing: trailing, top: top, bottom: nil)
     }
     
-    mutating public func inverse() {
+    mutating func inverse() {
         self = inversed()
     }
     
-    public func inversed() -> ConstraintEdges {
+    func inversed() -> ConstraintEdges {
         return ConstraintEdges(leading: leading?.inversed(), trailing: trailing?.inversed(), top: top?.inversed(), bottom: bottom?.inversed())
     }
     
-    public func inverseHeight() -> ConstraintEdges {
+    func inverseHeight() -> ConstraintEdges {
         return ConstraintEdges(leading: leading, trailing: trailing, top: top?.inversed(), bottom: bottom?.inversed())
     }
     
-    public func inverseWidth() -> ConstraintEdges {
+    func inverseWidth() -> ConstraintEdges {
         return ConstraintEdges(leading: leading?.inversed(), trailing: trailing?.inversed(), top: top, bottom: bottom)
     }
     
@@ -121,7 +121,7 @@ public struct ConstraintEdges: Sizeable, Decodable {
         self = minus(value, edge: edge)
     }
     
-    public func minus(_ value: CGFloat, edge: UIRectEdge) -> ConstraintEdges {
+    func minus(_ value: CGFloat, edge: UIRectEdge) -> ConstraintEdges {
         var leading: CGFloat? = nil
         var trailing: CGFloat? = nil
         var top: CGFloat? = nil
@@ -147,11 +147,11 @@ public struct ConstraintEdges: Sizeable, Decodable {
     }
     
     /// Leave nil to add it to all edges
-    mutating public func add(_ value: CGFloat, edge: UIRectEdge) {
+    mutating func add(_ value: CGFloat, edge: UIRectEdge) {
         self = added(value, edge: edge)
     }
     
-    public func added(_ value: CGFloat, edge: UIRectEdge) -> ConstraintEdges {
+    func added(_ value: CGFloat, edge: UIRectEdge) -> ConstraintEdges {
         var leading: CGFloat? = nil
         var trailing: CGFloat? = nil
         var top: CGFloat? = nil
@@ -180,7 +180,7 @@ public struct ConstraintEdges: Sizeable, Decodable {
         self = double(edge)
     }
     
-    public func double(_ edge: UIRectEdge) -> ConstraintEdges {
+    func double(_ edge: UIRectEdge) -> ConstraintEdges {
         assert(edge != .all)
         if edge == .left {
             return ConstraintEdges(leading: leading! * 2, trailing: trailing, top: top, bottom: bottom)

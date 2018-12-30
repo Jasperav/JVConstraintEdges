@@ -2,6 +2,21 @@ import UIKit
 
 public extension UIView {
     
+    func setContentHugging(_ to: Float) {
+        setContentHuggingPriority(UILayoutPriority(rawValue: to), for: .horizontal)
+        setContentHuggingPriority(UILayoutPriority(rawValue: to), for: .vertical)
+    }
+    
+    func setContentCompressionResistance(_ to: Float) {
+        setContentCompressionResistancePriority(UILayoutPriority(rawValue: to), for: .horizontal)
+        setContentCompressionResistancePriority(UILayoutPriority(rawValue: to), for: .vertical)
+    }
+    
+    func setContentHuggingAndCompressionResistance(_ to: Float) {
+        setContentHugging(to)
+        setContentCompressionResistance(to)
+    }
+    
     func createLeadingConstraintToTrailing(toRightView: UIView, constant: CGFloat? = nil, multiplier: CGFloat? = nil) {
          NSLayoutConstraint(item: self, attribute: .leading, relatedBy: .equal, toItem: toRightView, attribute: .trailing, multiplier: multiplier ?? 1, constant: constant ?? 0).isActive = true
     }

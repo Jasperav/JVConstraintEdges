@@ -20,6 +20,7 @@
 		51B60843EDD36E1030F64783620D3CB8 /* ContentTypeConstraintEdges.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9187AD6A91B3FE1695377AC95DC21AE9 /* ContentTypeConstraintEdges.swift */; };
 		58CD4C626BFC77AFEB1030FAE9877671 /* JVSizeable-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5AABE83EF5433146DC2D2EF5D2773074 /* JVSizeable-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5C9821E0295D1D760867C566EF2B7EEF /* Pods-JVConstraintEdges_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 026FADE290B1F53F5135F498E7DC3426 /* Pods-JVConstraintEdges_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		69DC24CF22071FF600C1A2CD /* Anchor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69DC24CE22071FF600C1A2CD /* Anchor.swift */; };
 		6D4F2D181C6C048EAB4C2ACF784776F9 /* ContentType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35634C8A35C8AE964FD7D983ADB4DE4C /* ContentType.swift */; };
 		76D54ED4D47A6731DA4722F341A0CC62 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACE3E476D6FE48EB8F40705DCD7F0194 /* Foundation.framework */; };
 		7DC00B555F006D2F623C53822811CDD2 /* ContentTypeGroupInitializable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0390ED06AE4200C901540548A4BF977 /* ContentTypeGroupInitializable.swift */; };
@@ -74,7 +75,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		01261E6C8C406959096D3EE264A4054A /* JVContentType.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JVContentType.framework; path = JVContentType.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		01261E6C8C406959096D3EE264A4054A /* JVContentType.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JVContentType.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		026FADE290B1F53F5135F498E7DC3426 /* Pods-JVConstraintEdges_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JVConstraintEdges_Tests-umbrella.h"; sourceTree = "<group>"; };
 		043E165FFD16C55472F457D9D681867C /* JVConstraintEdges.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JVConstraintEdges.modulemap; sourceTree = "<group>"; };
 		056BC38D728A78157A19E43EA1866535 /* ContentTypeGroup.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ContentTypeGroup.swift; path = JVContentType/Classes/ContentTypeGroup.swift; sourceTree = "<group>"; };
@@ -95,18 +96,19 @@
 		4F11C5DCE52C6031851CBB13B9875595 /* JVConstraintEdges.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JVConstraintEdges.xcconfig; sourceTree = "<group>"; };
 		4F76D6A5E6458AF058C1DF6381B7E2EB /* ConstraintEdges.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintEdges.swift; path = JVConstraintEdges/Classes/ConstraintEdges.swift; sourceTree = "<group>"; };
 		52DB3550641C60A9B7E4EAEA82469085 /* JVConstraintEdges-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JVConstraintEdges-umbrella.h"; sourceTree = "<group>"; };
-		5935E08F1D90D700BAA28B1308C47631 /* JVSizeable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JVSizeable.framework; path = JVSizeable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5935E08F1D90D700BAA28B1308C47631 /* JVSizeable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JVSizeable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AABE83EF5433146DC2D2EF5D2773074 /* JVSizeable-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JVSizeable-umbrella.h"; sourceTree = "<group>"; };
 		5B2D5F0679A355A794C9C6F68D7FFE0A /* Pods-JVConstraintEdges_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JVConstraintEdges_Tests.modulemap"; sourceTree = "<group>"; };
 		5B49ADE70B22DEBD06BAC14B174BEBE8 /* Pods-JVConstraintEdges_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JVConstraintEdges_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		5EB06AAB340D7D1612B85A1C829C7FDE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		5EB06AAB340D7D1612B85A1C829C7FDE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		6908D52E3084DD45EC0DEC1EC611C189 /* JVSizeable-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JVSizeable-prefix.pch"; sourceTree = "<group>"; };
+		69DC24CE22071FF600C1A2CD /* Anchor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Anchor.swift; path = JVConstraintEdges/Classes/Anchor.swift; sourceTree = "<group>"; };
 		6A6BC6B38C94AFC33F3BFA5F0FBB707D /* JVSizeable.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JVSizeable.xcconfig; sourceTree = "<group>"; };
 		76BE3B30A9839376E585B42D00500645 /* Copyable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Copyable.swift; path = JVContentType/Classes/Copyable.swift; sourceTree = "<group>"; };
-		8572ABA2D6F53559A2B7E33C18B2F94E /* JVConstraintEdges.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = JVConstraintEdges.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8572ABA2D6F53559A2B7E33C18B2F94E /* JVConstraintEdges.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = JVConstraintEdges.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		8BC3FFD70F1111A15924FA4BDD3941C5 /* Pods-JVConstraintEdges_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JVConstraintEdges_Tests-Info.plist"; sourceTree = "<group>"; };
 		9187AD6A91B3FE1695377AC95DC21AE9 /* ContentTypeConstraintEdges.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ContentTypeConstraintEdges.swift; path = JVConstraintEdges/Classes/ContentTypeConstraintEdges.swift; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9C711239839F0CAFCB2D4CA7350F0CA8 /* JVContentType.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JVContentType.modulemap; sourceTree = "<group>"; };
 		A9666F32A2A6B1DF9C1B7954403554D1 /* JVSizeable-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JVSizeable-Info.plist"; sourceTree = "<group>"; };
 		ACE3E476D6FE48EB8F40705DCD7F0194 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
@@ -117,13 +119,13 @@
 		BEEE9B05EE3F3E6B798B4AB234ED0F7B /* JVConstraintEdges-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JVConstraintEdges-dummy.m"; sourceTree = "<group>"; };
 		C6FB7CBD1407A9382C81788EEBF67B4C /* JVContentType.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JVContentType.xcconfig; sourceTree = "<group>"; };
 		C7DB4D8E856763C8EC36061C625BEB9A /* JVContentType-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JVContentType-prefix.pch"; sourceTree = "<group>"; };
-		D1D0841B7BA36AA625A4211AD7B1D6A7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		D1D0841B7BA36AA625A4211AD7B1D6A7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		D3D42B6F92972B71C4091E545A553324 /* CGFloatExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CGFloatExtensions.swift; path = JVConstraintEdges/Classes/CGFloatExtensions.swift; sourceTree = "<group>"; };
-		D4D88D5042AC819D613057D20AF38F7D /* Pods_JVConstraintEdges_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JVConstraintEdges_Tests.framework; path = "Pods-JVConstraintEdges_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4D88D5042AC819D613057D20AF38F7D /* Pods_JVConstraintEdges_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JVConstraintEdges_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6B7D54F834AF418C8546183DB413CF0 /* JVConstraintEdges-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JVConstraintEdges-Info.plist"; sourceTree = "<group>"; };
 		E0390ED06AE4200C901540548A4BF977 /* ContentTypeGroupInitializable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ContentTypeGroupInitializable.swift; path = JVContentType/Classes/ContentTypeGroupInitializable.swift; sourceTree = "<group>"; };
 		E0C3F2D9CE74EAAFBD3B3C8BB4EF3241 /* JVSizeable-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JVSizeable-dummy.m"; sourceTree = "<group>"; };
-		EC9ABDC30AE7D9555A514CB5CB9BC8D7 /* JVConstraintEdges.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JVConstraintEdges.framework; path = JVConstraintEdges.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC9ABDC30AE7D9555A514CB5CB9BC8D7 /* JVConstraintEdges.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JVConstraintEdges.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -280,7 +282,6 @@
 				2637A69C33DCFF8FACE3BDF571C94C2D /* Sizeable.swift */,
 				4F159F5360FEF23B15C5DAC3F28DF965 /* Support Files */,
 			);
-			name = JVSizeable;
 			path = JVSizeable;
 			sourceTree = "<group>";
 		};
@@ -302,6 +303,7 @@
 				1D60440ACFF5C636CDF1F71228CB62F4 /* UIViewFillExtension.swift */,
 				7A2EAEC967254BB3122FA903100F5661 /* Pod */,
 				754ABCEBF03B01DE8624FC9BAAE3A278 /* Support Files */,
+				69DC24CE22071FF600C1A2CD /* Anchor.swift */,
 			);
 			name = JVConstraintEdges;
 			path = ../..;
@@ -318,7 +320,6 @@
 				76BE3B30A9839376E585B42D00500645 /* Copyable.swift */,
 				4AAB8B8D87B25CFC6567BBAC7A71F348 /* Support Files */,
 			);
-			name = JVContentType;
 			path = JVContentType;
 			sourceTree = "<group>";
 		};
@@ -551,6 +552,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ADA6D8C76E9A6118BFDE803D78B62B1F /* CGFloatExtensions.swift in Sources */,
+				69DC24CF22071FF600C1A2CD /* Anchor.swift in Sources */,
 				0BA7D3C5F9D386D845137C540D35D097 /* ConstraintEdges.swift in Sources */,
 				51B60843EDD36E1030F64783620D3CB8 /* ContentTypeConstraintEdges.swift in Sources */,
 				ED6842CFA07A113439BEB285FE1F4548 /* JVConstraintEdges-dummy.m in Sources */,
@@ -621,8 +623,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -691,8 +692,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -767,8 +767,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -802,8 +801,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;

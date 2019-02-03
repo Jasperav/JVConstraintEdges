@@ -224,6 +224,14 @@ public extension UIView {
         }
     }
     
+    func spacing<T: NSLayoutXAxisAnchor, Y: NSLayoutXAxisAnchor>(from: T, to: Y, constant: CGFloat) {
+        from.constraint(equalTo: to, constant: constant).isActive = true
+    }
+    
+    func spacing<T: NSLayoutYAxisAnchor, Y: NSLayoutYAxisAnchor>(from: T, to: Y, constant: CGFloat) {
+        from.constraint(equalTo: to, constant: constant).isActive = true
+    }
+    
     func equal(to: UIView, height: Bool, width: Bool) {
         if height {
             heightAnchor.constraint(equalTo: to.heightAnchor, multiplier: 1).isActive = true

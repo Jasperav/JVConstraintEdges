@@ -1,3 +1,7 @@
-public enum Anchor {
-    case leading, top, trailing, bottom
+public enum AnchorX {
+    case top, bottom
+}
+
+public enum AnchorY {
+    case left, right
 }

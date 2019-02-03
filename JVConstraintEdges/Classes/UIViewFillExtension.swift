@@ -224,12 +224,22 @@ public extension UIView {
         }
     }
     
-    func spacing<T: NSLayoutXAxisAnchor, Y: NSLayoutXAxisAnchor>(from: T, to: Y, constant: CGFloat) {
-        from.constraint(equalTo: to, constant: constant).isActive = true
+    func spacing<T: NSLayoutYAxisAnchor>(from: AnchorX, to: T, constant: CGFloat) {
+        switch from {
+        case .top:
+            topAnchor.constraint(equalTo: to, constant: constant).isActive = true
+        case .bottom:
+            bottomAnchor.constraint(equalTo: to, constant: -constant).isActive = true
+        }
     }
     
-    func spacing<T: NSLayoutYAxisAnchor, Y: NSLayoutYAxisAnchor>(from: T, to: Y, constant: CGFloat) {
-        from.constraint(equalTo: to, constant: constant).isActive = true
+    func spacing<T: NSLayoutXAxisAnchor>(from: AnchorY, to: T, constant: CGFloat) {
+        switch from {
+        case .left:
+            leadingAnchor.constraint(equalTo: to, constant: constant).isActive = true
+        case .right:
+            trailingAnchor.constraint(equalTo: to, constant: -constant).isActive = true
+        }
     }
     
     func equal(to: UIView, height: Bool, width: Bool) {

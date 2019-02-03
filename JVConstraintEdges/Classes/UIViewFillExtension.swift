@@ -243,7 +243,7 @@ public extension UIView {
             fromAnchor = bottomAnchor
         }
         
-        if from == .bottom && from == .top {
+        if from == .bottom && to == .top {
             _constant = -constant
         } else {
             _constant = constant
@@ -271,7 +271,7 @@ public extension UIView {
             fromAnchor = rightAnchor
         }
         
-        if from == .right && from == .left {
+        if from == .right && to == .left {
             _constant = -constant
         } else {
             _constant = constant

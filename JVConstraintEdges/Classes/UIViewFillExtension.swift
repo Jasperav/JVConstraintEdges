@@ -227,6 +227,7 @@ public extension UIView {
     func spacing(from: AnchorX, to: AnchorX, view: UIView, constant: CGFloat) {
         let toAnchor: NSLayoutYAxisAnchor
         let fromAnchor: NSLayoutYAxisAnchor
+        let _constant: CGFloat
         
         switch to {
         case .top:
@@ -242,12 +243,19 @@ public extension UIView {
             fromAnchor = bottomAnchor
         }
         
-        fromAnchor.constraint(equalTo: toAnchor, constant: constant).isActive = true
+        if from == .bottom && from == .top {
+            _constant = -constant
+        } else {
+            _constant = constant
+        }
+        
+        fromAnchor.constraint(equalTo: toAnchor, constant: _constant).isActive = true
     }
     
     func spacing(from: AnchorY, to: AnchorY, view: UIView, constant: CGFloat) {
         let toAnchor: NSLayoutXAxisAnchor
         let fromAnchor: NSLayoutXAxisAnchor
+        let _constant: CGFloat
         
         switch to {
         case .left:
@@ -263,7 +271,13 @@ public extension UIView {
             fromAnchor = rightAnchor
         }
         
-        fromAnchor.constraint(equalTo: toAnchor, constant: constant).isActive = true
+        if from == .right && from == .left {
+            _constant = -constant
+        } else {
+            _constant = constant
+        }
+        
+        fromAnchor.constraint(equalTo: toAnchor, constant: _constant).isActive = true
     }
     
     func equal(to: UIView, height: Bool, width: Bool) {

@@ -224,22 +224,46 @@ public extension UIView {
         }
     }
     
-    func spacing<T: NSLayoutYAxisAnchor>(from: AnchorX, to: T, constant: CGFloat) {
+    func spacing(from: AnchorX, to: AnchorX, view: UIView, constant: CGFloat) {
+        let toAnchor: NSLayoutYAxisAnchor
+        let fromAnchor: NSLayoutYAxisAnchor
+        
+        switch to {
+        case .top:
+            toAnchor = view.topAnchor
+        case .bottom:
+            toAnchor = view.bottomAnchor
+        }
+        
         switch from {
         case .top:
-            topAnchor.constraint(equalTo: to, constant: constant).isActive = true
+            fromAnchor = topAnchor
         case .bottom:
-            bottomAnchor.constraint(equalTo: to, constant: -constant).isActive = true
+            fromAnchor = bottomAnchor
         }
+        
+        fromAnchor.constraint(equalTo: toAnchor, constant: constant).isActive = true
     }
     
-    func spacing<T: NSLayoutXAxisAnchor>(from: AnchorY, to: T, constant: CGFloat) {
+    func spacing(from: AnchorY, to: AnchorY, view: UIView, constant: CGFloat) {
+        let toAnchor: NSLayoutXAxisAnchor
+        let fromAnchor: NSLayoutXAxisAnchor
+        
+        switch to {
+        case .left:
+            toAnchor = view.leftAnchor
+        case .right:
+            toAnchor = view.rightAnchor
+        }
+        
         switch from {
         case .left:
-            leadingAnchor.constraint(equalTo: to, constant: constant).isActive = true
+            fromAnchor = leftAnchor
         case .right:
-            trailingAnchor.constraint(equalTo: to, constant: -constant).isActive = true
+            fromAnchor = rightAnchor
         }
+        
+        fromAnchor.constraint(equalTo: toAnchor, constant: constant).isActive = true
     }
     
     func equal(to: UIView, height: Bool, width: Bool) {

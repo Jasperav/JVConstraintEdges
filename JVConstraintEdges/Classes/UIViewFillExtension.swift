@@ -18,7 +18,7 @@ public extension UIView {
     }
     
     func createLeadingConstraintToTrailing(toRightView: UIView, constant: CGFloat? = nil, multiplier: CGFloat? = nil) {
-         NSLayoutConstraint(item: self, attribute: .leading, relatedBy: .equal, toItem: toRightView, attribute: .trailing, multiplier: multiplier ?? 1, constant: constant ?? 0).isActive = true
+        NSLayoutConstraint(item: self, attribute: .leading, relatedBy: .equal, toItem: toRightView, attribute: .trailing, multiplier: multiplier ?? 1, constant: constant ?? 0).isActive = true
     }
     
     func createTopConstraintToBottom(toBottomOfView: UIView, constant: CGFloat? = nil, multiplier: CGFloat? = nil) {
@@ -155,6 +155,27 @@ public extension UIView {
             centerYAnchor.constraint(equalTo: toSuperview.topAnchor).isActive = true
         }
         
+    }
+    
+    func fillByAnchor(toSuperview: UIView, constraintAnchor: ConstraintAnchor = ConstraintAnchor.zero) {
+        assert(superview == nil)
+        addAsSubview(to: toSuperview)
+        
+        if let width = constraintAnchor.width {
+            widthAnchor.constraint(equalTo: toSuperview.widthAnchor, constant: width).isActive = true
+        }
+        
+        if let height = constraintAnchor.height {
+            heightAnchor.constraint(equalTo: toSuperview.heightAnchor, constant: height).isActive = true
+        }
+        
+        if let centerX = constraintAnchor.centerX {
+            centerXAnchor.constraint(equalTo: toSuperview.centerXAnchor, constant: centerX).isActive = true
+        }
+        
+        if let centerY = constraintAnchor.centerY {
+            centerYAnchor.constraint(equalTo: toSuperview.centerYAnchor, constant: centerY).isActive = true
+        }
     }
     
     func fill(toSuperview: UIView, edges: ConstraintEdges? = nil, addToSuperView: Bool = true, toSafeMargins: Bool = false) {

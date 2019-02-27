@@ -1,5 +1,5 @@
 PODS:
-  - JVConstraintEdges (0.2.8):
+  - JVConstraintEdges (0.2.9):
     - JVContentType
     - JVSizeable
   - JVContentType (0.1.7)
@@ -18,10 +18,10 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  JVConstraintEdges: a51d03aa08bd6ed993c0837bdb247a5bd7446204
+  JVConstraintEdges: dc030ee4ff45f5194ba22a87ab129d738468b549
   JVContentType: bf617302d029baefccde48eb79edc7634fd15f55
   JVSizeable: 1252e6b1bed411b3fc34f6119d8eaf6803876cd3
 
 PODFILE CHECKSUM: a06e89ef11bc96b48477edc8b56f9e4e49c7f8d4
 
-COCOAPODS: 1.6.0.beta.1
+COCOAPODS: 1.6.1

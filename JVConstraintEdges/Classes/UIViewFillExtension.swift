@@ -222,6 +222,7 @@ public extension UIView {
     }
     
     func addAsSubview(to: UIView) {
+        assert(superview == nil)
         to.addSubview(self)
         
         translatesAutoresizingMaskIntoConstraints = false

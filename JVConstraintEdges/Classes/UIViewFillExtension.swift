@@ -1,28 +1,69 @@
 import UIKit
+// TODO: Add debug macros
 
 public extension UIView {
     
-    func setContentHugging(_ to: Float) {
-        setContentHuggingPriority(UILayoutPriority(rawValue: to), for: .horizontal)
-        setContentHuggingPriority(UILayoutPriority(rawValue: to), for: .vertical)
+    var contentHugging: Float {
+        get {
+            // Unsupported()
+            fatalError()
+        } set {
+            setContentHuggingPriority(UILayoutPriority(rawValue: newValue), for: .horizontal)
+            setContentHuggingPriority(UILayoutPriority(rawValue: newValue), for: .vertical)
+        }
     }
     
-    func setContentCompressionResistance(_ to: Float) {
-        setContentCompressionResistancePriority(UILayoutPriority(rawValue: to), for: .horizontal)
-        setContentCompressionResistancePriority(UILayoutPriority(rawValue: to), for: .vertical)
+    var contentCompression: Float {
+        get {
+            // Unsupported()
+            fatalError()
+        } set {
+            setContentCompressionResistancePriority(UILayoutPriority(rawValue: newValue), for: .horizontal)
+            setContentCompressionResistancePriority(UILayoutPriority(rawValue: newValue), for: .vertical)
+        }
     }
     
-    func setContentHuggingAndCompressionResistance(_ to: Float) {
-        setContentHugging(to)
-        setContentCompressionResistance(to)
+    var contentHuggingAndCompressionResistance: Float {
+        get {
+            // Unsupported()
+            fatalError()
+        } set {
+            contentHugging = newValue
+            contentCompression = newValue
+        }
     }
     
-    func createLeadingConstraintToTrailing(toRightView: UIView, constant: CGFloat? = nil, multiplier: CGFloat? = nil) {
+    func setWidthAndHeightAreTheSame() {
+        heightAnchor.constraint(equalTo: widthAnchor).isActive = true
+    }
+    
+    func setSameCenterY(view: UIView) {
+        centerYAnchor.constraint(equalTo: view.centerYAnchor).isActive = true
+    }
+    
+    func setSameCenterX(view: UIView) {
+        centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
+    }
+    
+    func setWidth(_ constant: CGFloat) {
+        widthAnchor.constraint(equalToConstant: constant).isActive = true
+    }
+    
+    func setHeight(_ constant: CGFloat) {
+        heightAnchor.constraint(equalToConstant: constant).isActive = true
+    }
+    
+    func setSameWidthAndHeight(toView: UIView) {
+        heightAnchor.constraint(equalTo: toView.heightAnchor).isActive = true
+        widthAnchor.constraint(equalTo: toView.widthAnchor).isActive = true
+    }
+    
+    func createLeadingConstraint(toRightView: UIView, constant: CGFloat? = nil, multiplier: CGFloat? = nil) {
         NSLayoutConstraint(item: self, attribute: .leading, relatedBy: .equal, toItem: toRightView, attribute: .trailing, multiplier: multiplier ?? 1, constant: constant ?? 0).isActive = true
     }
     
-    func createTopConstraintToBottom(toBottomOfView: UIView, constant: CGFloat? = nil, multiplier: CGFloat? = nil) {
-        NSLayoutConstraint(item: self, attribute: .top, relatedBy: .equal, toItem: toBottomOfView, attribute: .bottom, multiplier: multiplier ?? 1, constant: constant ?? 0).isActive = true
+    func createTopConstraint(toBottomView: UIView, constant: CGFloat? = nil, multiplier: CGFloat? = nil) {
+        NSLayoutConstraint(item: self, attribute: .top, relatedBy: .equal, toItem: toBottomView, attribute: .bottom, multiplier: multiplier ?? 1, constant: constant ?? 0).isActive = true
     }
     
     func fillToMiddleWithSameHeightAndWidth(toView: UIView, addToSuperView: Bool = true, toSafeMargins: Bool = false) {
@@ -326,30 +367,5 @@ public extension UIView {
         NSLayoutConstraint.activate(constraints)
         
         return constraints
-    }
-    
-    func setWidthAndHeightAreTheSame() {
-        heightAnchor.constraint(equalTo: widthAnchor).isActive = true
-    }
-    
-    func setSameCenterY(view: UIView) {
-        centerYAnchor.constraint(equalTo: view.centerYAnchor).isActive = true
-    }
-    
-    func setSameCenterX(view: UIView) {
-        centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
-    }
-    
-    func setWidth(_ constant: CGFloat) {
-        widthAnchor.constraint(equalToConstant: constant).isActive = true
-    }
-    
-    func setHeight(_ constant: CGFloat) {
-        heightAnchor.constraint(equalToConstant: constant).isActive = true
-    }
-    
-    func setSameWidthAndHeight(toView: UIView) {
-        heightAnchor.constraint(equalTo: toView.heightAnchor).isActive = true
-        widthAnchor.constraint(equalTo: toView.widthAnchor).isActive = true
     }
 }

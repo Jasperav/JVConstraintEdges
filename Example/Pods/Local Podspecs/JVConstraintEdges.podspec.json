@@ -1,6 +1,6 @@
 {
   "name": "JVConstraintEdges",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "summary": "JVConstraintEdges.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://google.com",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/Jasperav/JVConstraintEdges.git",
-    "tag": "0.3.1"
+    "tag": "0.3.2"
   },
   "platforms": {
     "ios": "11.0"

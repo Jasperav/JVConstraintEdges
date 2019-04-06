@@ -26,18 +26,12 @@ public struct ConstraintEdges: Decodable {
     public var height: CGFloat {
         return (top ?? 0) + (bottom ?? 0)
     }
-    
-    public static func create(edges: (ConstraintEdges) -> ()) {
-        
-    }
-    
+
     public init(leading: CGFloat?, trailing: CGFloat?, top: CGFloat?, bottom: CGFloat?) {
         self.leading = leading
         self.trailing = trailing
         self.top = top
         self.bottom = bottom
-        
-        
     }
     
     public init(leading: CGFloat) {

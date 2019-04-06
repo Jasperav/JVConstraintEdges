@@ -16,6 +16,7 @@
 		30855ED15FE0C1253F4661E3A4A06C77 /* JVDebugProcessorMacros-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B493E0853285D952570A0C5A87CEDDE /* JVDebugProcessorMacros-dummy.m */; };
 		3D47733581DBEC4B090BA0993B58B729 /* ContentTypeGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8473FCE6B23F052407D4DE866F4DCA9B /* ContentTypeGroup.swift */; };
 		3E0DEB870E0963E5C2079F4ACBAC715B /* ConstraintEdges.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28A1D5757D3F90F6039C5615E0BFE33E /* ConstraintEdges.swift */; };
+		694415422257B38D007BCB9D /* ContentHuggingCompressionResistance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 694415412257B38D007BCB9D /* ContentHuggingCompressionResistance.swift */; };
 		6B7A86E3C78A6E08D4AEB029B5BB29AD /* Anchor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6FC8E741E7F63F3D60FE1382B926874 /* Anchor.swift */; };
 		7192A32831A8BD60569E2D61ECDFBB28 /* DebugProcessorMacros.swift in Sources */ = {isa = PBXBuildFile; fileRef = D31070EE6007641BA3260BA8C113AB6C /* DebugProcessorMacros.swift */; };
 		7377EC6C5FC22459EB4CF8CA85E04E20 /* UIViewFillExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 457668E81F07938868BA9154C78296A6 /* UIViewFillExtension.swift */; };
@@ -83,12 +84,12 @@
 		0D9DD9E677A8162DFCE686290D5C0BF2 /* JVContentType-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JVContentType-dummy.m"; sourceTree = "<group>"; };
 		0DCF63CDCCBD255FC321A4F655016C90 /* JVContentType.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JVContentType.xcconfig; sourceTree = "<group>"; };
 		1197767B5CAE517086EF5C53A1FDA59B /* Pods-JVConstraintEdges_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JVConstraintEdges_Tests.modulemap"; sourceTree = "<group>"; };
-		2204F3CFDC910C863040714A7F43E68C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		2204F3CFDC910C863040714A7F43E68C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		28A1D5757D3F90F6039C5615E0BFE33E /* ConstraintEdges.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintEdges.swift; path = JVConstraintEdges/Classes/ConstraintEdges.swift; sourceTree = "<group>"; };
-		2A3ED4C3E3E5DF178CC1C05FE8817F23 /* JVContentType.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JVContentType.framework; path = JVContentType.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A3ED4C3E3E5DF178CC1C05FE8817F23 /* JVContentType.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JVContentType.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		333DAB06A8302C70BB9C6DC583368960 /* JVDebugProcessorMacros-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JVDebugProcessorMacros-Info.plist"; sourceTree = "<group>"; };
 		33D0CCCBA520C32F52E7F7A54DF7D6D8 /* CGFloatExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CGFloatExtensions.swift; path = JVConstraintEdges/Classes/CGFloatExtensions.swift; sourceTree = "<group>"; };
-		39F50D10A4E4E92D8AC3D5F586155383 /* Pods_JVConstraintEdges_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JVConstraintEdges_Tests.framework; path = "Pods-JVConstraintEdges_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		39F50D10A4E4E92D8AC3D5F586155383 /* Pods_JVConstraintEdges_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JVConstraintEdges_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D3138546334282D5DD7D510CB420F4F /* ConstraintAnchor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintAnchor.swift; path = JVConstraintEdges/Classes/ConstraintAnchor.swift; sourceTree = "<group>"; };
 		457668E81F07938868BA9154C78296A6 /* UIViewFillExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIViewFillExtension.swift; path = JVConstraintEdges/Classes/UIViewFillExtension.swift; sourceTree = "<group>"; };
 		45FFA37F9F2ED8EAEC62A7DC8D9C545C /* ContentTypeInitializable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ContentTypeInitializable.swift; path = JVContentType/Classes/ContentTypeInitializable.swift; sourceTree = "<group>"; };
@@ -101,6 +102,7 @@
 		670B74FF9F51FEA007FD492326A852A6 /* JVConstraintEdges-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JVConstraintEdges-dummy.m"; sourceTree = "<group>"; };
 		675DA7585684876C99D61629F630B178 /* ContentType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ContentType.swift; path = JVContentType/Classes/ContentType.swift; sourceTree = "<group>"; };
 		68A14BA5F1CEBD453D11A9B8D5557FFB /* ContentTypeConstraintEdges.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ContentTypeConstraintEdges.swift; path = JVConstraintEdges/Classes/ContentTypeConstraintEdges.swift; sourceTree = "<group>"; };
+		694415412257B38D007BCB9D /* ContentHuggingCompressionResistance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ContentHuggingCompressionResistance.swift; path = JVConstraintEdges/Classes/ContentHuggingCompressionResistance.swift; sourceTree = "<group>"; };
 		6BA207E16388B9B9D37F7FF9C16C5A6C /* JVContentType.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JVContentType.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E76148D974691B94E93D1344396DF23 /* Pods-JVConstraintEdges_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JVConstraintEdges_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		7B493E0853285D952570A0C5A87CEDDE /* JVDebugProcessorMacros-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JVDebugProcessorMacros-dummy.m"; sourceTree = "<group>"; };
@@ -109,25 +111,25 @@
 		872084FD5B2264C44FAA90633EC371A6 /* JVDebugProcessorMacros-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JVDebugProcessorMacros-umbrella.h"; sourceTree = "<group>"; };
 		8924DC7D4B72D6BD6D2DB93654BD9B48 /* JVConstraintEdges-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JVConstraintEdges-umbrella.h"; sourceTree = "<group>"; };
 		8A5D4A439FB84C9EB6AC023A600EEABF /* JVContentType.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JVContentType.modulemap; sourceTree = "<group>"; };
-		8B0EEE6AF39871F6B05E5F60C30FC652 /* JVConstraintEdges.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = JVConstraintEdges.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8B0EEE6AF39871F6B05E5F60C30FC652 /* JVConstraintEdges.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = JVConstraintEdges.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		8D867464D71BC1A47F845CA2EF851A38 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		996B6CD41CA28A60BB6E897921555456 /* Pods-JVConstraintEdges_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JVConstraintEdges_Tests-dummy.m"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A25204C873FC47669061EB2304F9EC19 /* JVContentType-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JVContentType-umbrella.h"; sourceTree = "<group>"; };
 		ADFF8EDB0D9BF38CCEE2DB5DFBC2AAB5 /* JVConstraintEdges.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JVConstraintEdges.xcconfig; sourceTree = "<group>"; };
 		AFD56962CA6B4AE3A7F5EFA3ABB4CB15 /* Pods-JVConstraintEdges_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JVConstraintEdges_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		B9FDDC2750F7F71480DE417FE0B25234 /* JVDebugProcessorMacros-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JVDebugProcessorMacros-prefix.pch"; sourceTree = "<group>"; };
-		C2B82EC61CD5AD1591C3D66D0AC4A740 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		C2B82EC61CD5AD1591C3D66D0AC4A740 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		C437BF63C11B28C09BBBF019B4586FE7 /* Copyable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Copyable.swift; path = JVContentType/Classes/Copyable.swift; sourceTree = "<group>"; };
 		C6FC8E741E7F63F3D60FE1382B926874 /* Anchor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Anchor.swift; path = JVConstraintEdges/Classes/Anchor.swift; sourceTree = "<group>"; };
 		CC5C185AD0D29B083B4CC06CB5A4A97F /* Pods-JVConstraintEdges_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JVConstraintEdges_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		CC66E30C104DC61FC92C037837114B8F /* Pods-JVConstraintEdges_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JVConstraintEdges_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		CEB270CDA426824577F0718DFC7A3C70 /* JVDebugProcessorMacros.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JVDebugProcessorMacros.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D31070EE6007641BA3260BA8C113AB6C /* DebugProcessorMacros.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DebugProcessorMacros.swift; path = JVDebugProcessorMacros/Classes/DebugProcessorMacros.swift; sourceTree = "<group>"; };
-		D7DF7938FBCFD44374AE1361DDE1E24E /* JVConstraintEdges.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JVConstraintEdges.framework; path = JVConstraintEdges.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7DF7938FBCFD44374AE1361DDE1E24E /* JVConstraintEdges.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JVConstraintEdges.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD9D5496E78189F04A39FAAB9281F2C3 /* JVConstraintEdges-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JVConstraintEdges-Info.plist"; sourceTree = "<group>"; };
 		E327FD0D2752D68D0DB2CD7635D935EE /* JVDebugProcessorMacros.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JVDebugProcessorMacros.xcconfig; sourceTree = "<group>"; };
-		F5E592CD8D4B6FC527DEAD2B640A22BC /* JVDebugProcessorMacros.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JVDebugProcessorMacros.framework; path = JVDebugProcessorMacros.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5E592CD8D4B6FC527DEAD2B640A22BC /* JVDebugProcessorMacros.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JVDebugProcessorMacros.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6E3168821F37A73F095F014E340883E /* ContentTypeGroupInitializable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ContentTypeGroupInitializable.swift; path = JVContentType/Classes/ContentTypeGroupInitializable.swift; sourceTree = "<group>"; };
 		FC72A9DD20A5C59F3C4000C9490BCD51 /* JVDebugProcessorMacros.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JVDebugProcessorMacros.modulemap; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -227,7 +229,6 @@
 				D31070EE6007641BA3260BA8C113AB6C /* DebugProcessorMacros.swift */,
 				48FA6A7FB8FB43E643C68DEB7EFCF2EF /* Support Files */,
 			);
-			name = JVDebugProcessorMacros;
 			path = JVDebugProcessorMacros;
 			sourceTree = "<group>";
 		};
@@ -267,6 +268,7 @@
 				457668E81F07938868BA9154C78296A6 /* UIViewFillExtension.swift */,
 				DE1D4AA9E6AD8DCB93EB7484D96D2066 /* Pod */,
 				7252C62425D59F98DE1A4ADFC1D5073A /* Support Files */,
+				694415412257B38D007BCB9D /* ContentHuggingCompressionResistance.swift */,
 			);
 			name = JVConstraintEdges;
 			path = ../..;
@@ -283,7 +285,6 @@
 				C437BF63C11B28C09BBBF019B4586FE7 /* Copyable.swift */,
 				9889A3A83DB906C09F12D5890E49137F /* Support Files */,
 			);
-			name = JVContentType;
 			path = JVContentType;
 			sourceTree = "<group>";
 		};
@@ -477,6 +478,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
@@ -551,6 +553,7 @@
 				D49E50FC806ECA6200308DEC36F9273C /* ModelCreator.swift in Sources */,
 				7B361BDF2DFCFA686BD43B5213D96719 /* StringExtensions.swift in Sources */,
 				7377EC6C5FC22459EB4CF8CA85E04E20 /* UIViewFillExtension.swift in Sources */,
+				694415422257B38D007BCB9D /* ContentHuggingCompressionResistance.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -692,8 +695,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
 			};

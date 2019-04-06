@@ -1,5 +1,5 @@
 PODS:
-  - JVConstraintEdges (0.3.2):
+  - JVConstraintEdges (0.3.3):
     - JVContentType
     - JVDebugProcessorMacros
   - JVContentType (0.1.7)
@@ -18,7 +18,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  JVConstraintEdges: 360fb913e65232ed8958e0a7617d5910d19046da
+  JVConstraintEdges: 56ac0876cbc713345c4237ed92b83520a2b03b9e
   JVContentType: bf617302d029baefccde48eb79edc7634fd15f55
   JVDebugProcessorMacros: 5df41f5660e5d5212c1d4c96fc0caa0800d77311
 

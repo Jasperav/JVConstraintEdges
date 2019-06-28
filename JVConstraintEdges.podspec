@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'JVConstraintEdges'
-  s.version          = '0.3.5'
+  s.version          = '0.3.6'
   s.summary          = 'JVConstraintEdges.'
 
   s.description      = <<-DESC
